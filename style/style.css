@@ -1,0 +1,95 @@
+header {
+    position: relative;
+}
+
+/* resizing de l'image en background */
+#monImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* slider principal essai 2*/
+
+/* .slideshow {
+    
+    overflow: hidden;
+    border: 3px solid #F2F2F2;
+ }
+ 
+ .slideshow ul {
+    padding:0; margin:0;
+    list-style: none;
+ }
+ .slideshow li {
+    float: left;
+ }
+ .slideshow li:last-child {
+     display: none;
+ } */
+
+
+/* le menu burger */
+
+.hamburger{ 
+    background: none; 
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    padding: 5px 25px; 
+    color: #999; 
+    border: 0; 
+    cursor: pointer; 
+    font-size: 20px;
+}
+
+    .cross{ 
+        background: none; 
+        position: absolute;
+        top: 0; 
+        right: 0; 
+        padding: 5px 25px; 
+        color: #999; 
+        border: 0; 
+        cursor: pointer; 
+        font-size: 40px;
+}
+
+    nav{
+        background: white;
+        font-size: 12px;
+    }
+    nav ul{
+        margin: 0;
+        padding: 20px;
+        list-style-type: none;
+    }
+    nav ul li {
+        padding: 10px 0;
+        border-bottom: 1px solid rgb(249, 247, 247);
+        color: #666;
+    }
+
+
+
+/* MAIN */
+
+
+.carousel-control-next-icon {
+    color: black !important;
+}
+
+/* MAIN */
+
+#green {
+    background: green;
+    color: white;
+    width: 30%;
+    text-align: center;
+    border-radius: 8%;
+}
+
+/* FOOTER */
+
+footer {
+    border: 2px solid pink;
+}
